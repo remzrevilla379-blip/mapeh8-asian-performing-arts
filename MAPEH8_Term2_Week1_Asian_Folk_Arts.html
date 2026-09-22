@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#123247">
+<title>MAPEH 8 | Asian Performing Arts — Week 1</title>
+<style>
+:root{--navy:#123247;--blue:#1d526d;--red:#a73a2b;--gold:#d99b38;--cream:#f7f3eb;--ink:#172b36;--muted:#5f7078}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:linear-gradient(180deg,#eef3f4,#faf8f3 55%,#edf2f3);line-height:1.6}
+header{background:linear-gradient(135deg,var(--navy),#1e5269 62%,#8f3529);color:white;padding:18px 5% 30px;position:sticky;top:0;z-index:20;box-shadow:0 4px 18px rgba(0,0,0,.18)}
+.brand{max-width:1200px;margin:auto}.kicker{font-weight:700;letter-spacing:.08em;font-size:.9rem;text-transform:uppercase;opacity:.9}
+h1{font-size:clamp(2.2rem,5vw,4.4rem);line-height:1.02;margin:6px 0}.subtitle{font-size:clamp(1rem,2vw,1.35rem);margin:0;opacity:.94}
+nav{max-width:1200px;margin:18px auto 0;display:flex;gap:8px;overflow-x:auto;padding-bottom:3px}
+nav a{color:var(--navy);background:#f5f7f7;text-decoration:none;padding:10px 15px;border-radius:12px;font-weight:700;white-space:nowrap;font-size:.92rem}
+main{max-width:1200px;margin:auto;padding:28px 5% 60px}
+.card{background:rgba(255,255,255,.95);border-radius:24px;padding:28px;box-shadow:0 8px 30px rgba(18,50,71,.10);margin:24px 0}
+h2{font-size:clamp(1.8rem,3vw,2.8rem);color:var(--navy);margin:0 0 10px}
+h3{font-size:clamp(1.25rem,2.2vw,1.75rem);color:var(--blue);margin-bottom:8px}
+.lead{font-size:clamp(1.08rem,2vw,1.35rem)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}
+.tile{border:1px solid #dce4e7;border-radius:18px;padding:20px;background:#fff;min-height:190px}
+.tile img{width:100%;height:250px;object-fit:cover;border-radius:14px;display:block;margin-bottom:15px;background:#e8edef}
+.tile.tall img{height:310px;object-fit:contain}
+.tag{display:inline-block;background:#eaf0f2;color:var(--navy);padding:5px 10px;border-radius:99px;font-size:.82rem;font-weight:700}
+.highlight{background:#fff6df;border-left:6px solid var(--gold);padding:18px 20px;border-radius:12px;margin:18px 0}
+.compare{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.compare>div{padding:22px;border-radius:18px;background:var(--cream);border-top:6px solid var(--gold)}
+.compare>div:last-child{border-top-color:var(--red)}
+.steps{display:grid;gap:12px}.step{display:flex;gap:14px;align-items:flex-start}
+.step b{background:var(--navy);color:white;min-width:38px;height:38px;border-radius:50%;display:grid;place-items:center}
+.feature{display:grid;grid-template-columns:minmax(280px,1fr) minmax(300px,1.4fr);gap:26px;align-items:center}
+.feature img{width:100%;max-height:440px;object-fit:contain;border-radius:18px;background:#eef2f3}
+.pillrow{display:flex;flex-wrap:wrap;gap:8px}.pill{background:#edf3f5;padding:7px 12px;border-radius:99px;font-weight:700;color:var(--navy)}
+.quiz-q{border:1px solid #d8e1e4;border-radius:16px;padding:20px;margin:16px 0;background:#fbfcfc}
+.options label{display:block;padding:9px 10px;border-radius:10px;cursor:pointer}.options label:hover{background:#edf3f5}
+button{border:0;border-radius:12px;padding:13px 20px;font-weight:800;font-size:1rem;cursor:pointer;background:var(--red);color:white;margin:4px}
+button.secondary{background:var(--navy)}
+input{width:100%;padding:13px;border:1px solid #cbd7dc;border-radius:10px;font-size:1rem}
+.result{margin-top:20px;padding:18px;border-radius:14px;background:#edf7ef;font-weight:700;display:none}
+.small{color:var(--muted);font-size:.92rem}
+.source{font-size:.78rem;color:#68777d;margin-top:8px}
+.source a{color:#526a75}
+footer{background:var(--navy);color:white;text-align:center;padding:30px 5%}
+@media(max-width:760px){.compare,.feature{grid-template-columns:1fr}header{position:relative}.card{padding:20px}.tile img{height:220px}}
+</style>
+</head>
+<body>
+<header>
+<div class="brand">
+<div class="kicker">Grade 8 MAPEH • Music & Arts • Term 2 • Week 1</div>
+<h1>Asian Performing Arts</h1>
+<p class="subtitle">Kabuki • Chinese Shadow Puppetry • Thai Khon • Mongolian Khoomei</p>
+</div>
+<nav>
+<a href="#start">🏠 Start</a>
+<a href="#kabuki">1. Kabuki</a>
+<a href="#shadow">2. Shadow Puppet</a>
+<a href="#khon">3. Thai Khon</a>
+<a href="#khoomei">4. Khoomei</a>
+<a href="#compare">5. Compare</a>
+<a href="#practice">6. Practice</a>
+<a href="#quiz">Quiz 1–10</a>
+</nav>
+</header>
+
+<main>
+<section id="start" class="card">
+<h2>🎭 Journey Through Asian Performing Arts</h2>
+<p class="lead"><b>Asian performing arts</b> show how people communicate stories, beliefs, emotions, values, and cultural identity through movement, acting, music, voice, costume, masks, puppetry, and other artistic elements.</p>
+<div class="grid">
+<div class="tile"><h3>🇯🇵 Japan</h3><p><b>Kabuki</b> — stylized theater known for dramatic makeup, costumes, poses, movement, and expressive performance.</p></div>
+<div class="tile"><h3>🇨🇳 China</h3><p><b>Chinese Shadow Puppetry</b> — storytelling using figures placed between a light source and a screen, accompanied by music or narration.</p></div>
+<div class="tile"><h3>🇹🇭 Thailand</h3><p><b>Khon</b> — a classical masked dance-drama traditionally associated with stories from the <i>Ramakien</i>.</p></div>
+<div class="tile"><h3>🇲🇳 Mongolia</h3><p><b>Khoomei</b> — a traditional Mongolian throat/overtone-singing practice in which the singer produces a fundamental tone with audible overtones.</p></div>
+</div>
+<div class="highlight"><b>Big Idea:</b> Different cultures use different artistic forms, but all can use performance to tell stories, express ideas, preserve traditions, and connect people with their heritage.</div>
+</section>
+
+<section class="card">
+<h2>🎯 Learning Goals</h2>
+<div class="grid">
+<div class="tile"><h3>Identify</h3><p>Identify the country and major characteristics of Kabuki, Chinese shadow puppetry, Thai Khon, and Mongolian Khoomei.</p></div>
+<div class="tile"><h3>Differentiate</h3><p>Differentiate their use of masks, makeup, puppets, movement, voice, costume, and music.</p></div>
+<div class="tile"><h3>Explain</h3><p>Explain how artistic elements help communicate cultural meaning and purpose.</p></div>
+<div class="tile"><h3>Appreciate</h3><p>Recognize the cultural heritage, discipline, creativity, and artistic skill involved in these traditions.</p></div>
+</div>
+</section>
+
+<section id="kabuki" class="card">
+<span class="tag">1 • JAPAN</span>
+<div class="feature">
+<div>
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Kabuki_Actor.jpg" alt="Kabuki actor artwork">
+<p class="source">Image: “Kabuki Actor,” Wikimedia Commons, public-domain artwork.</p>
+</div>
+<div>
+<h2>🇯🇵 Kabuki</h2>
+<p class="lead"><b>Kabuki</b> is a traditional Japanese theater form recognized for its highly stylized acting, movement, costumes, makeup, music, and stage techniques.</p>
+<div class="pillrow"><span class="pill">Dramatic makeup</span><span class="pill">Stylized movement</span><span class="pill">Costume</span><span class="pill">Music</span><span class="pill">Theater</span></div>
+<h3>Kumadori</h3><p>A dramatic makeup style used especially in certain Kabuki roles. Strong lines and colors help communicate the character's qualities or role.</p>
+<h3>Mie</h3><p>A famous Kabuki pose in which an actor holds a striking position to emphasize an important moment.</p>
+<h3>Onnagata</h3><p>A Kabuki acting tradition in which male performers portray female roles using specialized movement, voice, costume, and acting conventions.</p>
+</div>
+</div>
+</section>
+
+<section id="shadow" class="card">
+<span class="tag">2 • CHINA</span>
+<div class="feature">
+<div>
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Chinese_shadow_puppetry.jpg" alt="Chinese shadow puppetry figures">
+<p class="source">Image: “Chinese shadow puppetry,” Wikimedia Commons, CC BY-SA 4.0.</p>
+</div>
+<div>
+<h2>🇨🇳 Chinese Shadow Puppetry</h2>
+<p class="lead">Chinese shadow puppetry is a form of theater in which figures are manipulated between a light source and a screen so that their silhouettes create the performance.</p>
+<h3>How it works</h3>
+<div class="steps">
+<div class="step"><b>1</b><div><b>Figures</b><br>Flat, often colorful figures are designed with recognizable shapes and details.</div></div>
+<div class="step"><b>2</b><div><b>Light & Screen</b><br>Light projects the figures onto a translucent screen.</div></div>
+<div class="step"><b>3</b><div><b>Movement</b><br>Performers manipulate the figures to create actions and characters.</div></div>
+<div class="step"><b>4</b><div><b>Music & Storytelling</b><br>Music, singing, narration, and sound can accompany the story.</div></div>
+</div>
+<div class="highlight"><b>Artistic principle:</b> The audience recognizes characters through silhouette, movement, color, shape, and performance.</div>
+</div>
+</div>
+</section>
+
+<section id="khon" class="card">
+<span class="tag">3 • THAILAND</span>
+<div class="feature">
+<div>
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Khon_Masked_Dance_Performance_in_Bangkok_c1910_Robert_Lenz.png" alt="Historical Thai Khon masked dance performance">
+<p class="source">Image: Robert Lenz, “Khon Masked Dance Performance in Bangkok c1910,” Wikimedia Commons, public domain.</p>
+</div>
+<div>
+<h2>🇹🇭 Thai Khon</h2>
+<p class="lead"><b>Khon</b> is a classical Thai masked dance-drama. It is strongly associated with stories from the <i>Ramakien</i>, the Thai national epic based on the Ramayana tradition.</p>
+<div class="grid">
+<div class="tile"><h3>🎭 Masks</h3><p>Many characters are identified through distinctive masks and costumes.</p></div>
+<div class="tile"><h3>🕺 Movement</h3><p>Movement is formal, controlled, and highly stylized.</p></div>
+<div class="tile"><h3>📖 Story</h3><p>Performance communicates characters and episodes from traditional stories.</p></div>
+<div class="tile"><h3>🥁 Music</h3><p>Traditional music and vocal or instrumental accompaniment support the drama.</p></div>
+</div>
+<div class="highlight"><b>Key idea:</b> In Khon, the mask, costume, gesture, posture, and movement work together to communicate character and story.</div>
+</div>
+</div>
+</section>
+
+<section id="khoomei" class="card">
+<span class="tag">4 • MONGOLIA</span>
+<div class="feature">
+<div>
+<img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Mongolian_Musician.jpg" alt="Mongolian traditional musician">
+<p class="source">Image: Eric Pouhier, “Mongolian Musician,” Wikimedia Commons, CC BY-SA 2.5.</p>
+</div>
+<div>
+<h2>🇲🇳 Mongolian Khoomei</h2>
+<p class="lead"><b>Khoomei</b> (also spelled <i>khöömei</i>) is a traditional Mongolian throat/overtone-singing practice. A singer produces a low or fundamental vocal sound while making one or more overtones clearly audible.</p>
+<h3>What makes it distinctive?</h3>
+<ul>
+<li><b>Voice as the main instrument:</b> the human voice creates the musical sound.</li>
+<li><b>Overtones:</b> the singer shapes the vocal tract so an overtone can be heard clearly above the fundamental sound.</li>
+<li><b>Nature and cultural setting:</b> Mongolian throat singing is closely associated with traditional musical life and the landscapes and cultural heritage of Mongolia.</li>
+<li><b>Skill and control:</b> the practice requires careful control of breathing, voice, resonance, and listening.</li>
+</ul>
+<div class="highlight"><b>Listen for:</b> Instead of hearing only one simple vocal tone, listeners may hear a low base sound together with a higher whistle-like or flute-like overtone.</div>
+</div>
+</div>
+</section>
+
+<section id="compare" class="card">
+<span class="tag">5 • COMPARE</span>
+<h2>One Culture, One Form of Expression</h2>
+<div class="compare">
+<div><h3>🎭 Kabuki & Khon</h3><p>Both use <b>stylized acting and movement</b>. Kabuki emphasizes dramatic theater, makeup, costumes, poses, and stage conventions; Khon emphasizes masks, formal dance movement, costumes, and epic storytelling.</p></div>
+<div><h3>🪆 Shadow Puppetry & Khoomei</h3><p>Both show how performance can use a distinctive artistic technique: shadow puppetry uses <b>light, figures, and silhouettes</b>, while Khoomei uses <b>controlled vocal sound and overtones</b>.</p></div>
+</div>
+<div class="grid">
+<div class="tile"><h3>What do they communicate?</h3><p>Stories, emotions, beliefs, values, identity, history, and cultural memory.</p></div>
+<div class="tile"><h3>What makes them artistic?</h3><p>Intentional choices in movement, sound, visual design, performance, rhythm, costume, voice, and symbolism.</p></div>
+</div>
+</section>
+
+<section id="practice" class="card">
+<span class="tag">6 • INDIVIDUAL PRACTICE</span>
+<h2>Think Like a Performer</h2>
+<div class="grid">
+<div class="tile"><h3>🎭 Kabuki</h3><p>Imagine a dramatic character. Freeze in a strong, controlled pose for 5 seconds. What feeling could your pose communicate?</p></div>
+<div class="tile"><h3>🪆 Shadow Puppet</h3><p>Make a hand silhouette or simple imaginary puppet shape. What character could it represent?</p></div>
+<div class="tile"><h3>🎭 Khon</h3><p>Without speaking, use one controlled gesture to show a character who is powerful, respectful, or surprised.</p></div>
+<div class="tile"><h3>🎵 Khoomei</h3><p>Listen to or imagine a sustained vocal sound. What do you notice about pitch, resonance, and the idea of an overtone?</p></div>
+</div>
+<div class="highlight"><b>Reflection:</b> Which artistic element — movement, mask, makeup, puppet, costume, music, or voice — can communicate the most about a character? Explain your answer.</div>
+</section>
+
+<section id="quiz" class="card">
+<span class="tag">QUIZ • 1–10</span>
+<h2>Check Your Understanding</h2>
+<div class="highlight"><b>👤 Before You Start:</b> Please enter your <b>NICKNAME ONLY</b>. <b>Do NOT enter your real or full name.</b><br>
+Examples: <b>Mimi</b>, <b>Ace</b>, <b>Jay</b> &nbsp; | &nbsp; ❌ Do not enter: Maria Santos or Juan Dela Cruz.</div>
+<p>After entering your nickname and section, take the quiz. When finished, tap <b>Submit Quiz</b>. For another learner using the same phone, tap <b>Next Student</b>.</p>
+<div class="grid">
+<div><label><b>Nickname ONLY</b></label><input id="studentName" autocomplete="off" placeholder="Enter your nickname only"></div>
+<div><label><b>Section</b></label><input id="studentSection" autocomplete="off" placeholder="Example: Purity"></div>
+</div>
+
+<form id="quizForm">
+<div class="quiz-q"><b>1. Which country is Kabuki associated with?</b><div class="options">
+<label><input type="radio" name="q1" value="A"> A. China</label><label><input type="radio" name="q1" value="B"> B. Japan</label><label><input type="radio" name="q1" value="C"> C. Mongolia</label><label><input type="radio" name="q1" value="D"> D. Thailand</label></div></div>
+
+<div class="quiz-q"><b>2. What is kumadori?</b><div class="options">
+<label><input type="radio" name="q2" value="A"> A. A Kabuki makeup style</label><label><input type="radio" name="q2" value="B"> B. A Mongolian instrument</label><label><input type="radio" name="q2" value="C"> C. A Thai mask</label><label><input type="radio" name="q2" value="D"> D. A Chinese puppet screen</label></div></div>
+
+<div class="quiz-q"><b>3. How are Chinese shadow puppets used?</b><div class="options">
+<label><input type="radio" name="q3" value="A"> A. They are projected onto a screen using light</label><label><input type="radio" name="q3" value="B"> B. They are placed on a music stand</label><label><input type="radio" name="q3" value="C"> C. They are worn as dance shoes</label><label><input type="radio" name="q3" value="D"> D. They are played like string instruments</label></div></div>
+
+<div class="quiz-q"><b>4. What is a major visual feature of Thai Khon?</b><div class="options">
+<label><input type="radio" name="q4" value="A"> A. Masks and stylized costumes</label><label><input type="radio" name="q4" value="B"> B. Modern street clothing</label><label><input type="radio" name="q4" value="C"> C. Paper-only scenery</label><label><input type="radio" name="q4" value="D"> D. Silent reading</label></div></div>
+
+<div class="quiz-q"><b>5. Khon is strongly associated with stories from which epic tradition?</b><div class="options">
+<label><input type="radio" name="q5" value="A"> A. Ramakien</label><label><input type="radio" name="q5" value="B"> B. Iliad</label><label><input type="radio" name="q5" value="C"> C. Odyssey</label><label><input type="radio" name="q5" value="D"> D. Popol Vuh</label></div></div>
+
+<div class="quiz-q"><b>6. What is distinctive about Mongolian Khoomei?</b><div class="options">
+<label><input type="radio" name="q6" value="A"> A. The singer produces audible overtones</label><label><input type="radio" name="q6" value="B"> B. The performer uses only a drum</label><label><input type="radio" name="q6" value="C"> C. The performer wears a Kabuki mask</label><label><input type="radio" name="q6" value="D"> D. The performer manipulates a shadow puppet</label></div></div>
+
+<div class="quiz-q"><b>7. Which pair is correctly matched?</b><div class="options">
+<label><input type="radio" name="q7" value="A"> A. Kabuki — Japan</label><label><input type="radio" name="q7" value="B"> B. Khon — Mongolia</label><label><input type="radio" name="q7" value="C"> C. Khoomei — China</label><label><input type="radio" name="q7" value="D"> D. Shadow puppetry — Thailand</label></div></div>
+
+<div class="quiz-q"><b>8. A performer holds a dramatic pose to emphasize an important moment in Kabuki. What is this associated with?</b><div class="options">
+<label><input type="radio" name="q8" value="A"> A. Mie</label><label><input type="radio" name="q8" value="B"> B. Khon</label><label><input type="radio" name="q8" value="C"> C. Khoomei</label><label><input type="radio" name="q8" value="D"> D. Shadow screen</label></div></div>
+
+<div class="quiz-q"><b>9. Which statement best compares the four traditions?</b><div class="options">
+<label><input type="radio" name="q9" value="A"> A. Each uses distinctive artistic techniques to communicate cultural ideas</label><label><input type="radio" name="q9" value="B"> B. All four use exactly the same performance methods</label><label><input type="radio" name="q9" value="C"> C. Only theater can communicate culture</label><label><input type="radio" name="q9" value="D"> D. Traditional arts have no connection to identity</label></div></div>
+
+<div class="quiz-q"><b>10. What is the best way to appreciate these traditions?</b><div class="options">
+<label><input type="radio" name="q10" value="A"> A. Learn their cultural context and respect their artistic conventions</label><label><input type="radio" name="q10" value="B"> B. Judge them only by whether they look familiar</label><label><input type="radio" name="q10" value="C"> C. Ignore their history</label><label><input type="radio" name="q10" value="D"> D. Assume every Asian tradition has the same meaning</label></div></div>
+
+<button type="button" onclick="submitQuiz()">Submit Quiz</button>
+<button type="button" class="secondary" onclick="nextStudent()">Next Student</button>
+</form>
+<div id="result" class="result"></div>
+<p class="small">Privacy note: Use a nickname only. This page calculates the score in the browser and does not send the student's answers or score to a teacher database.</p>
+</section>
+
+<section class="card">
+<h2>🌏 Reflection & Ways Forward</h2>
+<p class="lead">Complete the sentence:</p>
+<div class="highlight">“I learned that Asian performing arts are important because __________.”</div>
+<p><b>Ways Forward:</b> Compare one of today's four traditions with a Philippine performing art. Identify <b>one similarity</b> and <b>one difference</b> in its movement, sound, costume, storytelling, or cultural purpose.</p>
+</section>
+</main>
+
+<footer>
+<b>MAPEH 8 • Music & Arts • Term 2 Week 1</b><br>
+Kabuki • Chinese Shadow Puppetry • Thai Khon • Mongolian Khoomei<br>
+Respect the Culture • Understand the Art • Appreciate the Heritage
+</footer>
+
+<script>
+const answers={q1:'B',q2:'A',q3:'A',q4:'A',q5:'A',q6:'A',q7:'A',q8:'A',q9:'A',q10:'A'};
+function submitQuiz(){
+ const form=document.getElementById('quizForm');let score=0,answered=0;
+ for(let i=1;i<=10;i++){const s=form.querySelector('input[name="q'+i+'"]:checked');if(s){answered++;if(s.value===answers['q'+i])score++;}}
+ const name=document.getElementById('studentName').value.trim()||'Student';
+ const section=document.getElementById('studentSection').value.trim();
+ const r=document.getElementById('result');r.style.display='block';
+ r.innerHTML=`<strong>${name}</strong>${section?' • '+section:''}<br>Score: <strong>${score} / 10</strong><br>Answered: ${answered} / 10<br>${score>=8?'🎉 Great work!':'📖 Review the lesson and try again.'}`;
+ r.scrollIntoView({behavior:'smooth',block:'center'});
+}
+function nextStudent(){
+ document.getElementById('quizForm').reset();
+ document.getElementById('studentName').value='';document.getElementById('studentSection').value='';
+ const r=document.getElementById('result');r.style.display='none';r.innerHTML='';
+ document.getElementById('quiz').scrollIntoView({behavior:'smooth',block:'start'});
+ setTimeout(()=>document.getElementById('studentName').focus(),500);
+}
+</script>
+</body>
+</html>
